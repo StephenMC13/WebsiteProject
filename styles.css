@@ -1,0 +1,43 @@
+header {
+  padding: 40px;
+  text-align: center;
+  background-color: #1d3557;
+}
+
+#wrapper {
+  margin: auto;
+  background-color: #f1faee;
+}
+
+nav {
+  padding: 10px 10px;
+  background-color: #e63946;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  width: 150px;
+}
+
+nav a {
+  padding: 5px;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #457b9d;
+  color: #f1faee;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #1d3557;
+}
+
+p {
+  margin-right: 80%;
+  margin-top: 5%;
+  margin-left: 40px;
+}
