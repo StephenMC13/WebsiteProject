@@ -1,17 +1,17 @@
 header {
   padding: 40px;
   text-align: center;
-  background-color: #1d3557;
+  background-color: #0a0908;
 }
 
 #wrapper {
   margin: auto;
-  background-color: #f1faee;
+  background-color: #eae0d5;
 }
 
 nav {
   padding: 10px 10px;
-  background-color: #e63946;
+  background-color: #22333b;
 }
 
 .main-nav {
@@ -27,17 +27,60 @@ nav a {
   padding: 5px;
   display: inline-block;
   text-decoration: none;
-  background-color: #457b9d;
+  background-color: #0a0908;
   color: #f1faee;
   text-align: center;
 }
 
 nav a:hover {
-  background-color: #1d3557;
+  background-color: #22333bb6;
 }
 
 p {
   margin-right: 80%;
   margin-top: 5%;
   margin-left: 40px;
+}
+
+#form {
+  margin: auto;
+  width: 80%;
+}
+
+form {
+  background-color: #eae0d5;
+  margin: auto;
+  font-family: Arial;
+  width: 60%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+input,
+textarea {
+  margin-top: 10px;
+}
+input::placeholder {
+  color: #0a0908;
+  font-family: Arial;
+  font-size: 1em;
+}
+
+label {
+  width: 20%;
+  float: left;
+  margin-top: 10px;
+}
+
+#buttons {
+  margin: auto;
+  width: 114px;
+}
+
+input[type="submit"],
+[type="reset"] {
+  background-color: #0a0908;
+  color: white;
+  padding: 5px;
+  font-family: Arial;
 }
